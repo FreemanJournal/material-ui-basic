@@ -1,12 +1,17 @@
-import './App.css';
-import MuiButton from './components/MuiButton';
+import { useState } from 'react';
+import MuiAutocomplete from './components/MuiAutocomplete';
+import MuiBox from './components/MuiLayout';
+import MuiCheckbox from './components/MuiCheckbox';
+import MuiRating from './components/MuiRating';
+import MuiSwitch from './components/MuiSwitch';
 import MuiTextField from './components/MuiTextField';
-import MuiTypography from './components/MuiTypography';
+import MuiCard from './components/MuiCard';
+import MuiAccordion from './components/MuiAccordion';
 
 function App() {
   return (
-    <div className="App">
-      <MuiTextField/>
+    <div className="" style={{padding:"10em"}}>
+      <MuiAccordion />
     </div>
   );
 }
