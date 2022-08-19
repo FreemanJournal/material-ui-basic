@@ -7,11 +7,12 @@ import MuiSwitch from './components/MuiSwitch';
 import MuiTextField from './components/MuiTextField';
 import MuiCard from './components/MuiCard';
 import MuiAccordion from './components/MuiAccordion';
+import MuiImageList from './components/MuiImageList';
 
 function App() {
   return (
     <div className="" style={{padding:"10em"}}>
-      <MuiAccordion />
+      <MuiImageList />
     </div>
   );
 }
